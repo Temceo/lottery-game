@@ -76,12 +76,6 @@ function showResults(selectedCount) {
   document.querySelector("#welcome").style.display = "none";
   document.querySelector("#pick").style.display = "none";
   board.style.display = "none";
-  // setTimeout(() => {
-  //   resultDiv.remove();
-  //   document.querySelectorAll(".number").forEach((div) => {
-  //     div.classList.remove("selected");
-  //   });
-  // }, 3000);
 }
 
 function resetGame() {
